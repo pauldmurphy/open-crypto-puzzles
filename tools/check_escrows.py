@@ -28,7 +28,7 @@ Output:
     "zero-balance-contract". For that state, the checker verifies both a zero balance and
     non-empty bytecode without claiming that the contract ever held prize funds.
 """
-
+import time
 import argparse
 import json
 import os
@@ -77,6 +77,7 @@ def check_bitcoin(address):
         resp = http_get(f"https://mempool.space/api/address/{address}")
         resp.raise_for_status()
         data = resp.json()
+        time.sleep(3)
     except Exception as exc:
         return "ERROR", f"network error: {exc}"
 
