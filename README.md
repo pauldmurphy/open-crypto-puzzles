@@ -15,14 +15,14 @@ on-chain right now.
 <!-- totals:start -->
 | Asset | Locked in unsolved puzzles | Approx. value |
 |---|---|---|
-| Bitcoin | 5.94 BTC | $374,000 |
-| Ethereum | 12.66 ETH | $24,000 |
-| Arweave | 1,500 AR | $2,700 |
+| Bitcoin | 5.94 BTC | $480,000 |
+| Ethereum | 12.66 ETH | $30,000 |
+| Arweave | 1,500 AR | $5,300 |
 | Litecoin | 3.03 LTC | $200 |
 | Stablecoins | 306 USDT + 0 USDC | $300 |
 | **Total** | **across 25 funded puzzles** | **$401,000** |
 
-Checked 2026-08-16 at BTC $63,000, ETH $1,880, AR $1.81. Prices and balances move; verify each escrow yourself.
+Checked 2026-10-27 at BTC $80,861, ETH $2,355, AR $3.5. Prices and balances move; verify each escrow yourself.
 <!-- totals:end -->
 
 I am floflo777. I worked about 40 of these and solved a few (0.5 ETH and about 0.01 BTC).
@@ -74,6 +74,7 @@ grouped by prize, is in the tables below.
 
 <!-- generated:start -->
 ## Big prizes (>= $10,000)
+
 | Puzzle | Prize | USD | Chain | Type | What remains | Escrow checked | Status |
 |---|---|---|---|---|---|---|---|
 | [Ballet / Bobby Lee: Take Bobby's Bitcoin](1-big-prizes/ballet-bobby-lee-2btc-cards/) | 2.00007358 BTC | 126,005 | bitcoin | bip38, physical-object | external-info | 2026-08-16 | open |
@@ -85,6 +86,7 @@ grouped by prize, is in the tables below.
 | [BLM Collage: Welcome to the Brave New World](1-big-prizes/blm-brave-new-world-0-2btc/) | 20,107,284 sats | 12,668 | bitcoin | image-stego, word-selection, bip39-seed, text-cipher | insight | 2026-08-16 | open |
 
 ## Mid prizes ($100 to $10,000)
+
 | Puzzle | Prize | USD | Chain | Type | What remains | Escrow checked | Status |
 |---|---|---|---|---|---|---|---|
 | [TeikhosBounty: Johan Nygren's Proof-of-Public-Key Puzzles](2-mid-prizes/teikhos-bipedaljoe-solver-bounties-2eth/) | 2.000006 ETH | 3,760 | ethereum | smart-contract, timelock | external-info | 2026-08-16 | open |
@@ -105,12 +107,14 @@ grouped by prize, is in the tables below.
 | [Pindar Van Arman: cryptoArtGAN Act 1 Puzzle](2-mid-prizes/pindar-van-arman-cryptoartgan-nft/) | 1 NFT |  | ethereum | bip39-seed, word-selection | insight | 2026-08-16 | open |
 
 ## Small prizes (< $100)
+
 | Puzzle | Prize | USD | Chain | Type | What remains | Escrow checked | Status |
 |---|---|---|---|---|---|---|---|
 | [Crypto Puzzles 2018: Puzzle #2](3-small-prizes/crypto-puzzles-2018-puzzle-2-0-05eth/) | 0.05 ETH | 94 | ethereum | raw-private-key, image-stego, video-series | external-info | 2026-08-16 | open |
 | [Exitonly Bitcoin Challenge 14](3-small-prizes/exitonly-challenge-14-30ksats/) | 30,000 sats | 18.90 | bitcoin | bip39-seed, word-selection | uneconomic | 2026-08-16 | open |
 
 ## Solved and cashed
+
 | Puzzle | Cashed | Payout tx | Date | Series lesson |
 |---|---|---|---|---|
 | [LogicBeach: Powerful Moss](4-solved/logicbeach-powerful-moss-0-54eth/) | 0.55 ETH | [0xae42fac96356a739ac387779d66d2386aad1cf868066ab58c7e23f661539f98f](https://basescan.org/tx/0xae42fac96356a739ac387779d66d2386aad1cf868066ab58c7e23f661539f98f) | 2026-10-05 | the carrier (the POAP clock image, not the audio), the order (clock position), and the derivation path are all confirmed; 3 of 12 hours read with no ambiguity and over 3.3 million combinations of the rest have been tested negative; the blocker is a resolution limit on the only known copy of the image (a numeral spans about 2 text rows, so 9 of 12 hours carry about 3 candidate words each), not raw compute, so an unrecovered insight into the exact readout rule or a finer source is what remains |

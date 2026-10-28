@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_on": "2026-08-16",
+  "generated_on": "2026-10-27",
   "price_snapshot": {
-    "date": "2026-08-16",
-    "BTC": 63000,
-    "ETH": 1880,
-    "AR": 1.81,
-    "LTC": 54
+    "date": "2026-10-27",
+    "BTC": 80861,
+    "ETH": 2355,
+    "AR": 3.5,
+    "LTC": 57.39
   },
   "counts": {
     "big": 7,
